@@ -1,6 +1,7 @@
 package com.example.fourthweek2.store;
 
 import lombok.Data;
+import org.springframework.web.util.HtmlUtils;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
@@ -26,6 +27,8 @@ public class MemberId implements Serializable {
     }
 
     public MemberId(String id, String regdate) {
+        id = HtmlUtils.htmlEscape(id);
+        regdate = HtmlUtils.htmlEscape(regdate);
         this.id = id;
         this.regdate = regdate;
     }
