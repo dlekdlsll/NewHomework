@@ -1,7 +1,5 @@
-package com.example.fourthweek2.service;
+package com.example.sixthweek.service;
 
-import com.example.fourthweek2.store.Member;
-import com.example.fourthweek2.store.MemberId;
 import org.springframework.stereotype.Service;
 
 

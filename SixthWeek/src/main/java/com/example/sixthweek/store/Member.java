@@ -1,4 +1,4 @@
-package com.example.fourthweek2.store;
+package com.example.sixthweek.store;
 
 import lombok.*;
 import org.springframework.web.util.HtmlUtils;

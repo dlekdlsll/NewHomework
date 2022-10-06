@@ -1,15 +1,15 @@
-package com.example.fourthweek2;
+package com.example.sixthweek;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan( basePackages = "com.example.fourthweek2.**")
-public class FourthWeek2Application {
+@ComponentScan( basePackages = "com.example.sixthweek.**")
+public class SixthWeekApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FourthWeek2Application.class, args);
+		SpringApplication.run(SixthWeekApplication.class, args);
 	}
 
 }

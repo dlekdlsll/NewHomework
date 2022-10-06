@@ -1,8 +1,8 @@
-package com.example.fourthweek2.restapi;
+package com.example.sixthweek.restapi;
 
-import com.example.fourthweek2.service.CreateService;
-import com.example.fourthweek2.service.MemberRepo;
-import com.example.fourthweek2.store.Member;
+import com.example.sixthweek.service.CreateService;
+import com.example.sixthweek.service.MemberRepo;
+import com.example.sixthweek.store.Member;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
