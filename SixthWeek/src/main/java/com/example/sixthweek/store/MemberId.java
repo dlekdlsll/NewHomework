@@ -20,7 +20,7 @@ public class MemberId implements Serializable {
     public MemberId() {
         Date now = new Date();
         String strId = UUID.randomUUID().toString();
-        String now2 = String.format("%tF", now) +" " +String.format("%tT", now);
+        String now2 = String.format("%tF", now);
         this.id = strId;
         this.regdate = now2;
     }
