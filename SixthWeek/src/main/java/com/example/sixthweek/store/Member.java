@@ -24,9 +24,6 @@ public class Member{
     String phoneNumber;
 
     public Member(String name, String phoneNumber, String address) {
-        name = HtmlUtils.htmlEscape(name);
-        phoneNumber = HtmlUtils.htmlEscape(phoneNumber);
-        address = HtmlUtils.htmlEscape(address);
         this.id = new MemberId();
         this.name = name;
         this.phoneNumber = phoneNumber;
@@ -34,9 +31,6 @@ public class Member{
     }
 
     public Member(MemberId id, String name, String phoneNumber, String address) {
-        name = HtmlUtils.htmlEscape(name);
-        phoneNumber = HtmlUtils.htmlEscape(phoneNumber);
-        address = HtmlUtils.htmlEscape(address);
         this.id = id;
         this.name = name;
         this.phoneNumber = phoneNumber;

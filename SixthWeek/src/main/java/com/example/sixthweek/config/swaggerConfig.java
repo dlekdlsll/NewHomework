@@ -10,7 +10,6 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
 @Configuration
-//public class swaggerConfig extends WebMvcConfigurationSupport {   // swaggerconfig와 WebMbcConfig가 충돌할 경우
 public class swaggerConfig {
     @Bean
     public Docket api(){
